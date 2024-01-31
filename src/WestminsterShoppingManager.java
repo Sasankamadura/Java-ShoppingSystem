@@ -110,7 +110,7 @@ public class WestminsterShoppingManager implements ShoppingManager {        //im
                     writer.println("Type: Electronics " +
                             "\nProduct name: " + product.getProductName()
                             + "\nProduct ID: " + product.getProductId()
-                            + "\nPrice: Rs" + product.getPrice()
+                            + "\nPrice: £" + product.getPrice()
                             + "\nBrand: " + ((Electronics) product).getBrand()
                             + "\nWarranty period: " + ((Electronics) product).getWarrantyPeriod()
                             + "\nNumber of available Items: " + product.getNumOfItemsAvailable()
@@ -120,7 +120,7 @@ public class WestminsterShoppingManager implements ShoppingManager {        //im
                     writer.println("Type: Clothing " +
                             "\nProduct name: " + product.getProductName()
                             + "\nProduct ID: " + product.getProductId()
-                            + "\nPrice: Rs" + product.getPrice()
+                            + "\nPrice: £" + product.getPrice()
                             + "\nSize: " + ((Clothing) product).getSize()
                             + "\nColour: " + ((Clothing) product).getColour()
                             + "\nNumber of available Items: " + product.getNumOfItemsAvailable()
